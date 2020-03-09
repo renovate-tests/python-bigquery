@@ -4,6 +4,20 @@
 
 [1]: https://pypi.org/project/google-cloud-bigquery/#history
 
+## [1.25.0](https://www.github.com/googleapis/python-bigquery/compare/v1.24.0...v1.25.0) (2020-03-09)
+
+
+### Features
+
+* add BigQuery storage client support to DB API ([#36](https://www.github.com/googleapis/python-bigquery/issues/36)) ([ba9b2f8](https://www.github.com/googleapis/python-bigquery/commit/ba9b2f87e36320d80f6f6460b77e6daddb0fa214))
+
+
+### Bug Fixes
+
+* allow partial streaming_buffer statistics ([#37](https://www.github.com/googleapis/python-bigquery/issues/37)) ([645f0fd](https://www.github.com/googleapis/python-bigquery/commit/645f0fdb35ee0e81ee70f7459e796a42a1f03210))
+* **bigquery:** fix start index with page size for list rows ([#27](https://www.github.com/googleapis/python-bigquery/issues/27)) ([400673b](https://www.github.com/googleapis/python-bigquery/commit/400673b5d0f2a6a3d828fdaad9d222ca967ffeff))
+* distinguish server timeouts from transport timeouts ([#43](https://www.github.com/googleapis/python-bigquery/issues/43)) ([a17be5f](https://www.github.com/googleapis/python-bigquery/commit/a17be5f01043f32d9fbfb2ddf456031ea9205c8f))
+
 ## 1.24.0
 
 02-03-2020 01:38 PST
